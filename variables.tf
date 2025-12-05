@@ -7,7 +7,7 @@ variable "aws_ami" {
 }
 
 variable "aws_type" {
-  default = "t3.medium"
+  default = "t3.micro"
 }
 
 variable "aws_key_name" {
