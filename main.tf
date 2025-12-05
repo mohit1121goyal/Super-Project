@@ -20,18 +20,4 @@ module "nexus_instance" {
   key_name      = var.aws_key_name
 }
 
-module "sonar_instance" {
-  source        = "./ec2_instance"
-  ami           = var.aws_ami
-  instance_type = var.aws_type
-  instance_name = "sonar"
-  key_name      = var.aws_key_name
-}
 
-module "test_instance" {
-  source        = "./ec2_instance"
-  ami           = var.aws_ami
-  instance_type = var.aws_type
-  instance_name = "test"
-  key_name      = var.aws_key_name
-}
