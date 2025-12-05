@@ -1,14 +1,11 @@
 variable "aws_region" {
-  description = "AWS region"
-  default = "us-east-2"
-}
-
-variable "aws_type" {
-  description = "AWS ec2 type"
-  default = "t3.medium"
+  default = "ap-south-1"
 }
 
 variable "aws_ami" {
-  description = "AWS ami"
-  default = "ami-0d176f79571d18a8f"
+  default = "ami-05561ceba311a6c7b"   # Mumbai (ap-south-1) Ubuntu 22.04 LTS
+}
+
+variable "aws_type" {
+  default = "t3.medium"
 }
