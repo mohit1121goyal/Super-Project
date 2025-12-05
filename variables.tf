@@ -7,7 +7,7 @@ variable "aws_ami" {
 }
 
 variable "aws_type" {
-  default = "t3.micro"
+  default = "c7i-flex.large"
 }
 
 variable "aws_key_name" {
