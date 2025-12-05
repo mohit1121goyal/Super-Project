@@ -9,3 +9,7 @@ variable "aws_ami" {
 variable "aws_type" {
   default = "t3.medium"
 }
+
+variable "aws_key_name" {
+  default = "Mumbai"
+}
